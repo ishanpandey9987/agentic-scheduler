@@ -1,0 +1,36 @@
+# ===========================================
+# Agentic Scheduler - Dependencies
+# ===========================================
+
+# Core Dependencies (Required)
+# -------------------------------------------
+# HTTP Requests - for Azure OpenAI API calls
+requests>=2.28.0
+
+# Environment Variables - for .env file loading
+python-dotenv>=1.0.0
+
+# Google Calendar API
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+
+# Document Processing (Required for parsing)
+# -------------------------------------------
+# PDF text extraction
+PyPDF2>=3.0.0
+
+# PDF to image conversion (for scanned PDFs)
+# Requires poppler: brew install poppler (macOS) or apt-get install poppler-utils (Linux)
+pdf2image>=1.16.0
+
+# Word document processing
+python-docx>=0.8.11
+
+# Image processing
+Pillow>=9.0.0
+
+# Testing (Development)
+# -------------------------------------------
+pytest>=7.0.0
+pytest-cov>=4.0.0

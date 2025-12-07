@@ -1,0 +1,73 @@
+# ===========================================
+# NEVER UPLOAD THESE FILES - CONTAINS SECRETS
+# ===========================================
+
+# Environment variables (contains API keys!)
+.env
+
+# Google OAuth credentials and tokens
+credentials.json
+token.json
+token.pickle
+*.pickle
+
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===========================================
+# Testing / Coverage
+# ===========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+agentic_scheduler.log
+
+# ===========================================
+# Misc
+# ===========================================
+*.bak
+*.tmp
